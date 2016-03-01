@@ -25,13 +25,13 @@ var work = {
 				"the business as well as definiing the company vision.  I enjoyed my time at Localize and learned a tremendous amount "+
 				"from everyone I worked with there."
 		{
-			"employer": "University of Windsor",
-			"title": "Teaching Assisstant / Computer Centre Support / Computer Science Tutor",
-			"location": "Windsor, Ontario, Canada",
-			"datesWorked": "September 1998 - April 2001",
-			"description": "I supervised labs for the second year advanced programming class in C as a teaching " +
-			"assisstant.  At the University Computer Centre I helped students with use of the computing resources " +
-			"available.  As a computer science tutor I aided students with class work and helped them through problems."
+			"employer": "University of san diego",
+			"title": "",
+			"location": "san diego,ca",
+			"datesWorked": "",
+			"description": "" +
+			" " +
+			""
 		},
 	]
 };
@@ -50,27 +50,27 @@ var education = {
 	"onlineCourses": [
 		{ "school": "Udacity",
 			"title": "Object-Oriented Javascript",
-			"completed": "November 2014",
+			"completed": "August, 2016,
 			"url": "https://www.udacity.com/course/ud015"
 		},
 		{ "school": "Udacity",
 			"title": "HTML5 Canvas",
-			"completed": "November 2014",
+			"completed": "November 2015",
 			"url": "https://www.udacity.com/course/ud292"
 		},
 		{ "school": "Udacity",
 			"title": "Javascript Basics",
-			"completed": "October 2014",
+			"completed": "October 2015",
 			"url": "https://www.udacity.com/course/ud804"
 		},
 		{ "school": "Udacity",
 			"title": "Intro to HTML and CSS",
-			"completed": "October 2014",
+			"completed": "October 2015",
 			"url": "https://www.udacity.com/course/ud304"
 		},	
 		{ "school": "Udacity",
 			"title": "Web Development",
-			"completed": "August 2014",
+			"completed": "August 2016",
 			"url": "https://www.udacity.com/course/cs253"
 		}
 	]
@@ -79,7 +79,7 @@ var education = {
 var projects = {
 	"projects": [
 		{
-			"title": "HTML5 Canvas Game",
+			"title": "HTML5 Canvas Gae",
 			"datesWorked": "December 2014 - January 2015",
 			"description": "Created an online game using HTML5 Canvas as part of Udacity's Front-End Web Developer " +
 			"Nanodegree.",
@@ -88,7 +88,7 @@ var projects = {
 		},
 		{
 			"title": "Online Portfolio",
-			"datesWorked": "October 2014",
+			"datesWorked": "October 2015",
 			"description": "Created an online portfolio of work as part of Udacity's Front-End Web Developer " +
 			"Nanodegree.",
 			"images": ["images/portfolio.jpg"],
@@ -96,12 +96,11 @@ var projects = {
 		},
 		{
 			"title": "Web Development Wiki",
-			"datesWorked": "June 2014 - August 2014",
+			"datesWorked": "June 2014 - August 2015",
 			"description": "Created an online wiki for Udacity's Web Development Course.",
 			"images": ["images/web.jpg"],
 			"url": "http://helpful-kit-572.appspot.com/"
-		}
-	]
+		}55
 };
 
 
