@@ -50,7 +50,7 @@ var education = {
 	"onlineCourses": [
 		{ "school": "Udacity",
 			"title": "Object-Oriented Javascript",
-			"completed": "August, 2016,
+			"completed": "August, ,
 			"url": "https://www.udacity.com/course/ud015"
 		},
 		{ "school": "Udacity",
