@@ -104,16 +104,16 @@ var projects = {
 };
 
 
-var formattedName = HTMLheaderName.replace("%data%", bio.name);
-var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
+var formattedName = HTMLheaderName.replace("David", bio.name);
+var formattedRole = HTMLheaderRole.replace("Front-end developer%", bio.role);
 var formattedBioPic = HTMLbioPic.replace("%data%", bio.picture);
-var formattedWelcomeMsg = HTMLWelcomeMsg.replace("%data%", bio.welcomeMessage);
+var formattedWelcomeMsg = HTMLWelcomeMsg.replace("Work, make love, beautiful", bio.welcomeMessage);
 
 var formattedContactInfo = [];
-formattedContactInfo.push(HTMLemail.replace("%data%", bio.contacts.email));
+formattedContactInfo.push(HTMLemail.replace("oaxaca.david@hotmail.com%", bio.contacts.email));
 formattedContactInfo.push(HTMLgithub.replace("%data%", bio.contacts.github));
 formattedContactInfo.push(HTMLtwitter.replace("%data%", bio.contacts.twitter));
-formattedContactInfo.push(HTMLlocation.replace("%data%", bio.contacts.location));
+formattedContactInfo.push(HTMLlocation.replace("palo alto,ca", bio.contacts.location));
 
 
 $("#header").prepend(formattedRole);
